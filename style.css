@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Berkshire Swash", cursive;
+  background: #eacda3;
+  background: linear-gradient(to right, #d6ae7b, #eacda3);
+  padding: 10px;
+  margin: 10px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li {
+  list-style: none;
+  background: #f46b45;
+  background: linear-gradient(to right, #eea849, #f46b45);
+  padding: 2%;
+  border: 1px solid brown;
+}
+
+.extech-img {
+  height: 300px;
+  width: 300px;
+  border: 1px black;
+  margin: 20px;
+}
+.home {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.home div {
+  padding: 10px;
+  text-align: center;
+  height: 300px;
+  font-size: 1.5em;
+  margin: 30px;
+}
+
+hr {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray;
+}
+.ProductDescription {
+  font-size: 1.5em;
+  margin: 10px;
+  padding: 10px;
+}
+
+.extech1-img {
+  height: 300px;
+  width: 300px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.ordernow {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+.ordernow .info {
+  padding: 10px;
+  height: 300px;
+  width: 300px;
+  text-align: left;
+  font-size: 1.5em;
+}
+.contactus {
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 10px;
+}
